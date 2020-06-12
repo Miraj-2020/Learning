@@ -1,0 +1,107 @@
+
+body {
+	font-size: 16px;
+	background-color: #fff;
+	color: #800000;
+	font-family: font-family: 'Oxygen', sans-serif;
+
+}
+
+#header-nav {
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 20px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+
+
+#nav-list {
+	margin-top: 20px;
+	background-color: #B0C4DE;
+}
+
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#main-content section {
+	background-color: #808080;
+	margin: 2px;
+	width: auto;
+	position: relative;
+}
+#back {
+	margin: 30px 0 10px 5px;
+}
+#menu {
+	font-size: 50px;
+}
+section h2 {
+	color: #fff;
+}
+
+
+
+/*************Extra small devices only***********/
+@media (max-width: 767px) {
+	/*header*/
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /*restaurant name*/
+		padding-top: 10px;
+		font-size: 5vw; 
+	}
+
+	
+
+/**********super extra small devices only *****/
+@media (max-width: 479px) {
+	/****Header****/
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	
