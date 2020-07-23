@@ -1,0 +1,48 @@
+body {
+	background-color: #61122f;
+	color: #fff;
+	font-family: font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.logo-img {
+	width: 200px;
+	height: 200px;
+	margin: 10px 15px 10px 0;
+
+}
+
+.panel-footer {
+	background-color: #222;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+.row .pic {
+	width: 200px;
+	height: 200px;
+	margin: 30px 20px 60px 0;
+
+}
+.navbar-nav .nav-item {
+	font-size: 1.5em;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+#main-content #happy,#birth{
+	color: #557c3e;
+}
