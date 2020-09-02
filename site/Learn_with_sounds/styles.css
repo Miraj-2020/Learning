@@ -1,11 +1,18 @@
 .btn{
-  height: 40px;
-  width: 40px;
-  background-color: red;
+  height: 60px;
+  width: 60px;
   margin: 40px;
 }
 
 h1 {
   color: teal;
 margin: 50px 30px;
+}
+
+.shadow {
+  box-shadow: 0 15px 18px 0 red;
+  opacity: .4;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }

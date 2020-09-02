@@ -4,8 +4,17 @@ for (var i=0; i<8; i++){
     var textRead = this.innerHTML;
     console.log(textRead);
     audioPlay(textRead);
+    playAnimation(textRead);
   });
 };
+
+
+document.addEventListener("keypress", function(event){
+  var textRead = event.key;
+  var textRead = textRead.toUpperCase();
+  audioPlay(textRead);
+  playAnimation(textRead);
+});
 
 function audioPlay(textRead){
   switch (textRead) {
@@ -49,4 +58,13 @@ function audioPlay(textRead){
           audio.play()
           break;
   };
+};
+
+function playAnimation(textRead){
+  var selectButton = document.querySelector("."+textRead);
+  selectButton.classList.add("shadow");
+
+  setTimeout(function() {
+      selectButton.classList.remove("shadow");
+  }, 2000);
 };
